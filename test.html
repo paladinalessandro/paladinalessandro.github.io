@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<!-- DA FARE: RENDERE SMOOTH IL CAMBIO DI TESTO, RENDERE IL TUTTO + BELLO E MINIMAL, IMPLEMENTARE LE SINGOLE ANIMAZIONI-->
+	<title>Sito Web Creativo, progetto gratuito</title>
+	<meta name="description" content="Scopri la soluzione online perfetta per il tuo business con i nostri servizi di design e sviluppo personalizzati. Il nostro obiettivo è quello di utilizzare la creatività come fattore scatenante di uno sviluppo rapido sul web per la tua attività. Visita e ottieni un progetto per il tuo sito, gratis!"
+	<link rel="stylesheet" href="css/pagestyle.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style>html, body {margin: 0; height: 100%; overflow: hidden}</style>
+</head>
+<body>
+	<div id="container">
+		<h1 id="label">Immagina: questo cerchio è il tuo business</h1>
+		<canvas id="myCanvas" width="200" height="200"></canvas>
+		<button class="btn" id="btn" style="opacity:0"><i class="fa fa-handshake-o" aria-hidden="false"></i></button>
+	</div>
+
+	<div id="arrow">
+		<div id="arrow-icon"></div>
+		<div id="arrow-text">Tocca il cerchio!</div>
+	</div>
+
+
+	<script type="text/javascript">
+      function checkdevice(){
+           var isMobile = /iPhone|iPad|iPod|midp|rv:1.2.3.4|ucweb|windows ce|windows mobile|BlackBerry|IEMobile|Opera Mini|Android/i.test(navigator.userAgent);
+                if (isMobile) {
+                } else {
+                     document.getElementById("label").innerHTML="Mi dispiace, questo sito funziona solo da telefono :( <br> Dacci un occhio, ne vale la pena!";
+										 document.getElementById("myCanvas").style.visibility="hidden";
+										 document.getElementById("arrow").style.visibility="hidden";
+                }
+           }
+			checkdevice();
+  </script>
+
+	<script src="scripts/maindriver.js"></script>
+</body>
+</html>
