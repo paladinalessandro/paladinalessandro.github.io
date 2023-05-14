@@ -1,5 +1,5 @@
 body {
-  background-color: #fff; /* sfondo bianco */
+  background-color: #fff; 
   margin: 0;
   padding: 0;
 }
@@ -10,7 +10,7 @@ body {
   display: block;
   margin: 0 auto;
   position:absolute;
-  top:50%;
+  top:52%;
   left:50%;
   transform: translate(-50%, -50%);
   background-color: #000;
@@ -18,12 +18,12 @@ body {
 #label{
 font-family: Roboto, sans-serif;
 text-align: center;
-font-size: 34px;
+font-size: 37px;
 color: rgb(0, 0, 0);
 background-color: rgb(255, 255, 255);
 text-shadow: rgba(0, 0, 0, 0.5) 2px 2px 2px;
 position:absolute;
-top:40%;
+top:35%;
 left:50%;
 transform: translate(-50%, -50%);
 font-weight: 200;
