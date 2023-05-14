@@ -28,19 +28,6 @@ left:50%;
 transform: translate(-50%, -50%);
 font-weight: 200;
 }
-#label2{
-font-family: Roboto, sans-serif;
-text-align: center;
-font-size: 34px;
-color: rgb(0, 0, 0);
-background-color: rgb(255, 255, 255);
-text-shadow: rgba(0, 0, 0, 0.5) 2px 2px 2px;
-position:absolute;
-top:55%;
-left:50%;
-transform: translate(-50%, -50%);
-font-weight: 200;
-}
 .btn {
   background-color: Green;
   border: none;
